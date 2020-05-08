@@ -1,5 +1,6 @@
 # Ignore .idea and .DS_Store file
 *.idea
+.env
 *.DS_Store
 *__pycache__
 ./model
