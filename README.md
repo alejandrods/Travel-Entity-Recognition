@@ -13,6 +13,8 @@ It developed it using Keras and the model is deployed as REST API.
 
 [Run App](#Deploy)  
 
+[Examples](#Examples)  
+
 <a name="Installation"></a>
 #### Installation
 
@@ -25,6 +27,8 @@ git clone git@github.com:alejandrods/Travel-Entity-Recognition.git
 ```
 pip install -r requirements.txt
 ```
+
+> Change `tensorflow-gpu` to `tensorflow` in `requirements.txt` if you are not available to use GPU.
 
 3- Environment variables required
 
@@ -39,6 +43,8 @@ EMBEDDING_DIM (Embedding Dimension - i.e: 100)
 MAX_SEQ_LEN (Max length sequences - i.e: 60)
 MODEL_DIR (Path to model dir - i.e: ./model)
 ```
+
+4- Download pre-trained words vector in `.txt` format from [this site - Glove](https://nlp.stanford.edu/projects/glove/)
 
 <a name="Train"></a>
 ### Train
@@ -56,3 +62,11 @@ MODEL_DIR (Path to model dir - i.e: ./model)
 
 2- To deploy the front-end using flask-app, run the next command:
 `python app.py`
+
+<a name="Examples"></a>
+### Examples
+I need a flight from New York to Barcelona on may 4th morning
+![](./images/example1.PNG)
+
+What is the status of the flight UX 1092
+![](./images/example2.PNG)
