@@ -65,8 +65,11 @@ MODEL_DIR (Path to model dir - i.e: ./model)
 
 <a name="Examples"></a>
 ### Examples
-I need a flight from New York to Barcelona on may 4th morning
+I need a flight from New York to Barcelona on may 4th morning.
 ![](./images/example1.PNG)
 
-What is the status of the flight UX 1092
+What is the status of the flight UX 1092.
 ![](./images/example2.PNG)
+
+I would like to rent a car in the airport.
+![](./images/example3.PNG)
